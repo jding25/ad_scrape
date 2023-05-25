@@ -2,7 +2,7 @@
 ### function: `user_info` 
 ### input: user url
 ### output: a list of user information, including
-###'user_id','user_name','user_occupation','user_location','website','featured','project_views','num_appreciations','num_followers','num_followings','bios','tool_list'
+### 'user_id','user_name','user_occupation','user_location','website','featured','project_views','num_appreciations','num_followers','num_followings','bios','tool_list'
 ### function: `generate_user_table`
 ### input: user_list (a list of user urls), index(the current position on that list)
 ### output: generate a new user table by calling user_info for each user url on the user url list or appending to exisiting user table.
